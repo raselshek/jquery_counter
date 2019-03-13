@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- ------------ customs css------ -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+    <style>
+      .counter{
+        font-size: 50px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <span class="counter text-center">1,234,567.00</span>
+       </div>
+       <div class="col-md-4">
+         <span class="counter text-center">1,234,567.00</span>
+       </div>
+       <div class="col-md-4">
+         <span class="counter text-center">1,234,567.00</span>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-md-12">
+        <div class="header text-center">
+          <h1>These counter are ready</h1>
+        </div>
+       </div>
+     </div>
+   </div>
+
+    <!-- jQuery links -->
+    <script src="js/jquery.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+<script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 1,
+                time: 2000
+            });
+        });
+    </script>
+    
+
+  </body>
+</html>
